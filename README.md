@@ -10,7 +10,7 @@ in a cron.d file:
 
 MAILTO=root
 
-*/5 * * * * 	python3 /root/munin2json/munin2json.py >> /var/log/munin-json.log
+*/5 * * * * 	root python3 /root/munin2json/munin2json.py >> /var/log/munin-json.log
 
 
 in a logrotate.d file:
